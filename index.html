@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- nature -->
+    <section class="section nature">
+      <img
+        src="./images/Harry.jpg"
+        title="Harry Potter"
+        class="img"
+        data-id="1"
+        alt="Harry Potter"
+      />
+      <img
+        src="./images/Hermione.jpg"
+        title="Hermione Granger"
+        class="img"
+        data-id="2"
+        alt="Hermione Granger"
+      />
+      <img
+        src="./images/Ron.jpg"
+        title="Ron Weasley"
+        class="img"
+        data-id="3"
+        alt="Ron Weasley"
+      />
+    </section>
+    <!-- city -->
+    <section class="section city">
+      <img
+        src="./images/CaptainAmerica.jpg"
+        title="Captain America"
+        data-id="1"
+        class="img"
+        alt="Captain America"
+      />
+      <img
+        src="./images/Ironman.jpg"
+        title="Iron Man"
+        data-id="2"
+        class="img"
+        alt="Iron Man"
+      />
+      <img
+        src="./images/Thor.jpg"
+        title="Thor"
+        data-id="3"
+        class="img"
+        alt="Thor"
+      />
+      <img
+        src="./images/Hulk.jpg"
+        title="Hulk"
+        data-id="4"
+        class="img"
+        alt="Hulk"
+      />
+      <img
+        src="./images/Blackwidow.jpg"
+        title="Black Widow"
+        data-id="5"
+        class="img"
+        alt="Black Widow"
+      />
+      <img
+        src="./images/Hawkeye.jpg"
+        title="Hawk Eye"
+        data-id="5"
+        class="img"
+        alt="Hawk Eye"
+      />
+    </section>
+
+    <!-- modal -->
+    <div class="modal">
+      <button class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-content">
+        <!-- prev next buttons -->
+        <button class="prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <!-- content -->
+        <img src="./images/city-1.jpeg" class="main-img" alt="" />
+        <h3 class="image-name">Name</h3>
+        <div class="modal-images"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
